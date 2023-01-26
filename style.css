@@ -1,0 +1,68 @@
+.bdindex{
+    margin: 100px;
+    margin-top: 5px;
+    background-color: #428CC4;
+    
+}
+input[type=text]{
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+input[type=submit] ,input[type=reset],input[type=button]{
+/* display: block; */
+width: 20%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type=submit]:hover {
+background-color: #45a049;
+}
+input[type=reset]:hover {
+    background-color: #d22b2b;
+}
+input[type=radio] ,input[type=checkbox] {
+    cursor: pointer;
+}
+div {
+border-radius: 5px;
+background-color: #f2f2f2;
+margin: 20px;
+}
+form{
+    margin: 20px;
+}
+.error{
+    color: #FF0000;
+}
+table{
+    border: 2px solid gainsboro;
+}
+table th{
+    border-right: 2px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+    margin-left: 10px;
+    /* padding-left: 0px; */
+    text-align: left;
+}
+table td{
+    border: 2px solid gainsboro;
+    border-spacing: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+table tr{
+    border: 2px solid gray;
+}
